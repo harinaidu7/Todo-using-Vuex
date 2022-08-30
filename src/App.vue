@@ -1,5 +1,6 @@
 <template>
  <div>
+      <AddTodo/>
      <Todo/>
      <router-view/>
    </div>
@@ -8,9 +9,10 @@
 
 <script>
 import Todo from './components/Todo.vue';
+import AddTodo from './components/AddTodo.vue';
   export default{
     name: "App",
-    components: { Todo }
+    components: { Todo, AddTodo }
 }
 
 </script>
