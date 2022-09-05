@@ -74,7 +74,7 @@
         position: absolute;
         bottom: 10px;
         right:10px;
-        color: rgb(103, 6, 6);
+        color: rgb(161, 42, 42);
         cursor: pointer 
 
     }
